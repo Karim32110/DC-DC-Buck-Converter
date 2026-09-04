@@ -1,8 +1,12 @@
 # DC-DC Buck Converter Design and Simulation
 
-## Overview
-This project demonstrates the design and simulation of a DC-DC buck converter using LTspice. The converter steps a 12 V DC input down to approximately 4.5 V using PWM switching, an inductor, capacitor, diode, and resistive load.
+**12 V Input → ~4.52 V Output | 100 kHz | 41.7% Duty Cycle | ~88.9% Efficiency**
 
+## Overview
+
+This project demonstrates the design and simulation of a DC-DC buck converter in LTspice. The converter steps down a 12 V DC input to approximately 4.52 V using PWM-controlled switching.
+
+The circuit was analyzed for output voltage, voltage ripple, inductor current, switching frequency, startup response, and overall efficiency.
 ## Circuit Parameters
 
 | Parameter | Value |

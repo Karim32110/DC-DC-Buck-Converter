@@ -34,6 +34,8 @@ The circuit was analyzed for output voltage, voltage ripple, inductor current, s
 | Output Power | ≈ 4.08 W |
 | Simulated Efficiency | ≈ 88.9% |
 
+> **Note:** LTspice reports the average input-source current as approximately −0.383 A due to its current reference direction. The magnitude (0.383 A) was used when calculating input power and efficiency.
+
 ## PWM Control
 The converter uses a PWM signal with a period of 10 µs and an ON time of approximately 4.17 µs.
 

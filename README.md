@@ -50,3 +50,24 @@ D = Ton / T = 4.17 / 10 = 41.7%
 
 ## What I Learned
 This project helped demonstrate the relationship between PWM duty cycle, energy storage components, switching frequency, output ripple, and the performance of a DC-DC buck converter.
+
+## Simulation Results
+
+### Output Voltage
+![Output Voltage](Results/output_voltage.png)
+
+### Output Voltage Ripple
+![Output Voltage Ripple](Results/output_voltage_ripple.png)
+
+### Inductor Current
+![Inductor Current](Results/inductor_current.png)
+
+### Switching Frequency
+![Switching Frequency](Results/frequency.png)
+
+### Switching Waveform
+![Switching Waveform](Results/switching_waveform.png)
+
+### Startup Response
+![Startup Response](Results/startup_response.png)
+

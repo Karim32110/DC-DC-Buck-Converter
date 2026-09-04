@@ -4,9 +4,15 @@
 
 ## Overview
 
-This project demonstrates the design and simulation of a DC-DC buck converter in LTspice. The converter steps down a 12 V DC input to approximately 4.52 V using PWM-controlled switching.
+This project demonstrates the design and simulation of a DC-DC buck converter using LTspice. The converter steps down a 12 V DC input to approximately 4.52 V using PWM-controlled switching.
 
-The circuit was analyzed for output voltage, voltage ripple, inductor current, switching frequency, startup response, and overall efficiency.
+The circuit was analyzed for output voltage, voltage ripple, inductor current, switching frequency, startup response, power, and overall efficiency.
+
+## Circuit Schematic
+
+![DC-DC Buck Converter Schematic](Results/buck_converter_schematic.png)
+
+The converter consists of a PWM-controlled switch, diode, 100 µH inductor, 100 µF output capacitor, and a 5 Ω resistive load.
 
 ## Circuit Parameters
 
@@ -69,7 +75,7 @@ The steady-state output voltage ripple is approximately 3.14 mV peak-to-peak, co
 
 ![Inductor Current](Results/inductor_current.png)
 
-The inductor current has the expected triangular waveform for continuous switching operation, with an average current of approximately 0.916 A.
+The inductor current has the expected triangular waveform, with an average current of approximately 0.916 A.
 
 ### Switching Frequency
 
@@ -87,7 +93,7 @@ The PWM switching signal controls the converter switch and determines the energy
 
 ![Startup Response](Results/startup_response.png)
 
-The startup waveform shows the transient response of the converter before the output settles to its steady-state value.
+The startup waveform shows the transient behavior of the converter before the output settles to its steady-state value.
 
 ## Power and Efficiency
 
@@ -110,10 +116,10 @@ Therefore, the simulated efficiency is:
 - LTspice
 - GitHub
 
-## Files
+## Project Files
 
 - `Buck_Converter.asc` — LTspice schematic and simulation setup
-- `Results/` — Simulation waveform screenshots
+- `Results/` — Circuit schematic and simulation waveform screenshots
 - `README.md` — Project documentation
 
 ## What I Learned
